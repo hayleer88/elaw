@@ -1,0 +1,32 @@
+.isit {margin: 0px auto; width: 600px; }
+.lonely { width: 600px; background: var(--mggradient); border-radius: 15px 15px 0px 0px; padding: 20px; }
+.where {width: 600px; background: var(--bg6); border-radius: 0px 0px 15px 15px; padding: 20px; }
+.youare {width: 600px; height: 30px;  margin: 0 auto; position: relative; padding: 10px;font-family: 'Kristopher';  font-size: 45px; text-align: center; cnt-size: 16px; color: var(--bg10); text-shadow: 0 5px 10px rgba(0,0,0,0.4);}
+.allthe {width: 570px; height: 150px; margin: 0 auto; position: relative; padding: 10px; border-radius: 15px 15px 15px 15px; background: var(--bg9);}
+.way {width: 560px; height: 140px; padding: 7px; font-family: font-family: 'Poppins'; font-size: 15px; text-align: justify; color: var(--fontcolor1); }
+.way b {font-family: 'Poppins'; font-size: 15px; color: rgb(var(--mgcolor1));}
+.way i {font-family: 'Poppins'; font-size: 15px; background: var(--mggradient25);border-radius: 7px 7px 7px 7px;}
+.flex-container {
+
+    display: flex;
+    
+    justify-content: space-evenly;  
+    /* flex-flow: wrap; */  
+    flex-wrap: wrap;
+     padding-top: 20px; 
+    padding-bottom: 15px; 
+    height: 100%;
+    gap: 30px;
+
+  }
+
+.flex-container > div {}
+.across { position: relative; right: 12px; width: 150px; height: 260px; }
+.theroom {position: relative; left: 25px; width: 120px; height: 120px; background: var(--bg9); border-radius: 15px 15px 15px 15px; }
+.theroom img { position: relative; top: 10px; left: 10px; height: 100px; width: 100px;  border-radius: 15px 15px 15px 15px; object-fit: cover; }
+.witha {margin: 0 auto; top: 20px; position: relative; width: 150px; height: 65px; background: var(--mggradient); padding: 10px; border-radius: 15px 15px 0px 0px;}
+.knife {font-family: 'Kristopher';  font-size: 20px; text-align: center; cnt-size: 16px;color: var(--bg10); text-shadow: 0 5px 10px rgba(0,0,0,0.4);}
+.inside {position: relative; right: 10px; top: 6px; width: 150px; height: 50px; background: var(--bg9); padding: 10px; border-radius: 0px 0px 15px 15px;}
+.your {width: 560px; height: 140px; font-family: font-family: 'Poppins'; font-size: 15px; text-align: justify; color: var(--fontcolor1); }
+.your b {font-family: 'Poppins'; font-size: 15px; color: rgb(var(--mgcolor1));}
+.your i {font-family: 'Poppins'; font-size: 15px; color: rgb(var(--mgcolor3));}
