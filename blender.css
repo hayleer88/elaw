@@ -30,3 +30,23 @@
 .your { height: 30px; font-family: font-family: 'Poppins'; font-size: 13px; text-align: justify; color: var(--fontcolor1); }
 .your b {font-family: 'Poppins'; font-size: 13px; color: rgb(var(--mgcolor1));}
 .your i {font-family: 'Poppins'; font-size: 13px; color: rgb(var(--mgcolor3));}
+apainted {margin: 0px auto; width: 90%; }
+.apainted {margin: 0px auto; width: 90%; }
+.heart {background: var(--mggradient); border-radius: 15px 15px 0px 0px; padding: 20px; }
+.onasidewalk {background: var(--bg6); border-radius: 0px 0px 15px 15px; padding: 20px; }
+.ableeding { height: 30px;  margin: 0 auto; position: relative; padding: 10px;font-family: 'Kristopher';  font-size: 45px; text-align: center; cnt-size: 16px; color: var(--bg10); text-shadow: 0 5px 10px rgba(0,0,0,0.4);}
+.flex-container {
+
+    display: flex;
+    
+    justify-content: space-evenly;  
+    /* flex-flow: wrap; */  
+    flex-wrap: wrap;
+    height: 100%;
+    gap: 10px;
+
+  }
+.flex-container > div {}
+.sun { position: relative; height: 200px; }
+.silverscreen {position: relative; height: 150px; background: var(--bg9); padding: 10px; border-radius: 15px 15px 15px 15px; }
+.silverscreen img { position: relative; height: 150px; border-radius: 15px 15px 15px 15px; object-fit: cover; }
