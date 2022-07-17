@@ -30,7 +30,8 @@
 .your { height: 30px; font-family: font-family: 'Poppins'; font-size: 13px; text-align: justify; color: var(--fontcolor1); }
 .your b {font-family: 'Poppins'; font-size: 13px; color: rgb(var(--mgcolor1));}
 .your i {font-family: 'Poppins'; font-size: 13px; color: rgb(var(--mgcolor3));}
-apainted {margin: 0px auto; width: 90%; }
+
+
 .apainted {margin: 0px auto; width: 90%; }
 .heart {background: var(--mggradient); border-radius: 15px 15px 0px 0px; padding: 20px; }
 .onasidewalk {background: var(--bg6); border-radius: 0px 0px 15px 15px; padding: 20px; }
