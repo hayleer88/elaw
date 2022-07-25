@@ -25,6 +25,6 @@ html, html[data-theme="dark"] .haylee-wrap {
 .still { padding: 20px; }
 .strainedhearts { font-family: 'varela Round'; font-size: 15px; text-align: justify; line-height: 1.6; }
 .strainedhearts b { font-family: 'varela Round'; font-size: 16px; background: var(--gdr2); -webkit-background-clip: text; -webkit-text-fill-color: transparent; color: transparent; }
-.strainedhearts i { font-family: 'varela Round'; font-size: 16px; color: rgba(var(--mgrgb3),1); }
+.strainedhearts i { font-family: 'varela Round'; font-size: 16px; color: rgba(var(--mgcolor3),1); }
 .tryingto { width: auto; height: 36px; background: var(--gdr3); border-radius: 0px 0px 15px 15px; }
 .findahome { height: 30px; text-align: center; padding: 3px; font-family: ariel; font-size: 18px; }
