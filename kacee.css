@@ -15,8 +15,8 @@ html, html[data-theme="dark"] .haylee-wrap {
 .wildflower { margin: 0 auto; width: 350px;  }
 .fingertips {width: auto; height: 210px; background: var(--gdr); border-radius: 15px 15px 0px 0px}
 .isaid {width: auto; height: 36px; background: var(--gdr); border-radius: 15px 15px 0px 0px; }
-.onme { position: relative; top: 20px; width: 255px; height: 160px; background: var(--background); border-radius: 15px 15px 15px 15px; padding: 3px; }
-.lookingfor {position: relative; top: 40px; width: 120px; height: 120px; background: var(--background); border-radius: 15px 15px 15px 15px; padding: 3px; }
+.onme { position: relative; top: 20px; width: 255px; height: 160px; background: var(--background); border-radius: 15px 15px 15px 15px; }
+.lookingfor {position: relative; top: 40px; width: 120px; height: 120px; background: var(--background); border-radius: 15px 15px 15px 15px; }
 .ican { position: relative; top: 10px;}
 .ican img { height: 140px; width: 235px;  border-radius: 15px 15px 15px 15px; object-fit: cover; border: 5px; }
 .somethingreal { position: relative; top: 10px;}
