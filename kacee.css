@@ -13,7 +13,7 @@ html, html[data-theme="dark"] .haylee-wrap {
 }
 
 .wildflower { margin: 0 auto; width: 350px;  }
-.fingertips {width: auto; height: 210px; background: var(--gdr); border-radius: 15px 15px 0px 0px}
+.fingertips {width: auto; height: 200px; background: var(--gdr); border-radius: 15px 15px 0px 0px}
 .isaid {width: auto; height: 36px; background: var(--gdr); border-radius: 15px 15px 0px 0px; }
 .onme { position: relative; top: 20px; width: 255px; height: 160px; background: var(--background); border-radius: 15px 15px 15px 15px; }
 .lookingfor {position: relative; top: 40px; width: 120px; height: 120px; background: var(--background); border-radius: 15px 15px 15px 15px; }
