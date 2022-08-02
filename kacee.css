@@ -15,13 +15,13 @@ html, html[data-theme="dark"] .haylee-wrap {
 .wildflower { margin: 0 auto; width: 350px;  }
 .fingertips {width: auto; height: 200px; background: var(--gdr); border-radius: 15px 15px 0px 0px}
 .isaid {width: auto; height: 36px; background: var(--gdr); border-radius: 15px 15px 0px 0px; }
-.onme { position: relative; top: 20px; width: 255px; height: 160px; background: var(--background); border-radius: 15px 15px 15px 15px; }
-.lookingfor {position: relative; top: 40px; width: 120px; height: 120px; background: var(--background); border-radius: 15px 15px 15px 15px; }
+.onme { position: relative; top: 20px; width: 255px; height: 160px; background: var(--bg6); border-radius: 15px 15px 15px 15px; }
+.lookingfor {position: relative; top: 40px; width: 120px; height: 120px; background: var(--bg6); border-radius: 15px 15px 15px 15px; }
 .ican { position: relative; top: 10px;}
 .ican img { height: 140px; width: 235px;  border-radius: 15px 15px 15px 15px; object-fit: cover; border: 5px; }
 .somethingreal { position: relative; top: 10px;}
 .somethingreal img { height: 100px; width: 100px;  border-radius: 15px 15px 15px 15px; object-fit: cover; border: 5px; }
-.feelthem { width: auto; border: 1px var(--bdr); border-style: solid; background: var(--background); }
+.feelthem { width: auto; border: 1px var(--bdr); border-style: solid; background: var(--bg6); }
 .still { padding: 20px; }
 .strainedhearts { font-family: 'varela Round'; font-size: 15px; text-align: justify; line-height: 1.6; }
 .strainedhearts b { font-family: 'varela Round'; font-size: 16px; background: transparent var(--gdra2) no-repeat right bottom;
