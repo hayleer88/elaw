@@ -35,3 +35,70 @@ padding-bottom: 1px;}
 .downthistown img {
 /*  position: relative; top: 10px; left: 10px; */
   height: 100px; width: 163px;  border-radius: 15px 15px 15px 15px; object-fit: cover; object-position: center;}
+.inthedark {margin: 0 auto; width: 300px; padding-bottom: 50px;}
+.ofthenight { height: 20px; width: 110px; background: var(--bg6); border-radius: 15px 15px 15px 15px; position: relative; top: 10px; right: -180px; }
+.justopen {position: relative; top: -75px; left: 10px; width: 100px; height: 100px; background: var(--mggradient); border-radius: 50%; }
+.justopen img {position: relative; top: 10px; left: 10px; height: 80px; width: 80px;  border-radius: 50%; object-fit: cover;}
+.thedoor {width: 80%;
+height: 250px;
+margin-top: -60px;
+margin-left: 15px;
+overflow-y: auto;
+  font-family: 'varela Round'; font-size: 15px; text-align: justify; line-height: 1.6;
+  padding: 15px; 
+}
+.thedoor b { font-family: 'varela Round'; font-size: 16px; background: transparent var(--mggradient) no-repeat right bottom;
+background-size: 100% 2.5px;
+padding-bottom: 1px;}
+.thedoor i { font-family: 'varela Round'; font-size: 16px; font-size: 16px; background: rgb(var(--mgcolor3)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; color: transparent; }
+.thedoor p {
+  margin-top: 0;
+  padding: 10px;
+  border-radius: 15px 15px 0 15px;
+  text-align: justify;
+}
+
+.thedoor p:nth-of-type(odd) {
+  background-color:rgba(var(--mgcolor1),0.2);
+}
+
+.thedoor p:nth-of-type(even) {
+  background-color:rgba(var(--mgcolor2),0.2);
+}
+
+.thedoor p:nth-of-type(3n) {
+  background-color:rgba(var(--mgcolor3),0.2);
+}
+
+.thedoor img {
+  width: 95%;
+  height: auto;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+  border-radius: 20px;
+  padding: 5px;
+}
+.wevegottime { 
+  width: 80%; 
+  height: 100%; 
+  margin: -40px auto; 
+  position: relative;
+  top: -20px;
+  padding: 7px; border-radius: 15px; background: var(--bg4);
+font-family: 'varela Round'; font-size: 14px; text-align: justify; line-height: 1.6;}
+.wevegottime b {font-family: 'varela Round'; font-size: 15px; font-size: 16px; background: rgb(var(--mgcolor1)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; color: transparent;}
+.onourside {position: relative; top: -120px; left: 60px; width: 75px; height: 75px; background: var(--mggradient); border-radius: 50%; }
+.onourside img {position: relative; top: 10px; left: 10px; height: 55px; width: 55px;  border-radius: 50%; object-fit: cover;}
+.wecanmakeit {width: 80%;
+height: 250px;
+margin-top: -105px;
+margin-left: 15px;
+overflow-y: auto;
+  font-family: 'varela Round'; font-size: 15px; text-align: justify; line-height: 1.6;
+  padding: 15px; 
+}
+.wecanmakeit b { font-family: 'varela Round'; font-size: 16px; background: transparent var(--mggradient) no-repeat right bottom;
+background-size: 100% 2.5px;
+padding-bottom: 1px;}
+.wecanmakeit i { font-family: 'varela Round'; font-size: 16px; font-size: 16px; background: rgb(var(--mgcolor3)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; color: transparent; }
