@@ -33,7 +33,7 @@ margin: auto !important;
   grid-column: 1;
   padding-top: 40px;
   padding-left: 40px; 
-  font-family: 'Pearl';
+  font-family: 'Pearl','Brush Script MT', cursive;
   font-weight: 900;
   background: var(--mggradient); -webkit-background-clip: text; -webkit-text-fill-color: transparent;
   text-align: justify;
@@ -44,7 +44,7 @@ margin: auto !important;
   grid-row: 2;
  grid-column: 1;
   padding-left: 40px; 
-  font-family: 'Pearl';
+  font-family: 'Pearl','Brush Script MT', cursive;
   font-weight: 900;
   background: var(--mggradient); -webkit-background-clip: text; -webkit-text-fill-color: transparent;
   text-align: justify;
@@ -62,12 +62,12 @@ margin: auto !important;
   line-height: 1.6;
   color: var(--fontcolor1);
 }
-.haylee-sub-title b { font-family: 'varela Round'; 
+.haylee-sub-title b { font-family: 'varela Round', Verdana, sans-serif; 
   font-size: 14px; 
   background: transparent var(--mggradient) no-repeat right bottom;
 background-size: 100% 2.5px;
 padding-bottom: 1px;}
-.haylee-sub-title i { font-family: 'varela Round'; font-size: 16px; font-size: 14px; background: rgb(var(--mgcolor3)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; color: transparent; }
+.haylee-sub-title i { font-family: 'varela Round', Verdana, sans-serif; font-size: 16px; font-size: 14px; background: rgb(var(--mgcolor3)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; color: transparent; }
 }
 .hayleegif {
   width: 80px; 
@@ -105,7 +105,7 @@ animation: testing 8s linear infinite;
   padding-left: 40px; 
   padding-top: 20px; 
   padding-bottom: 10px;
-  font-family: 'Pearl';
+  font-family: 'Pearl','Brush Script MT', cursive;
   font-weight: 900;
   background: var(--mggradient); -webkit-background-clip: text; -webkit-text-fill-color: transparent;
   text-align: justify;
@@ -125,7 +125,7 @@ animation: testing 8s linear infinite;
 }
 .haylee-flex txt {
   color: var(--fontcolor1);
-  font-family: 'Allegory'; 
+  font-family: 'Allegory', 'Courier New', monospace; 
   font-weight: 600; 
   font-size: 12px; 
   text-transform: uppercase;
@@ -148,7 +148,7 @@ animation: testing 8s linear infinite;
 }
 .haylee-directory txt {
   color: var(--fontcolor1);
-  font-family: 'Allegory'; 
+  font-family: 'Allegory','Courier New', monospace; 
   font-weight: 600; 
   font-size: 12px; 
   text-transform: uppercase;
