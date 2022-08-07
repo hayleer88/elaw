@@ -57,7 +57,7 @@ margin: auto !important;
   padding-left: 60px;
   text-align: justify;
   font-family: 'Allegory','Courier New', monospace; 
-  font-weight: 600; 
+  font-weight: 900; 
   font-size: 12px; 
   line-height: 1.6;
   color: var(--fontcolor1);
@@ -126,7 +126,7 @@ animation: testing 8s linear infinite;
 .haylee-flex txt {
   color: var(--fontcolor1);
   font-family: 'Allegory', 'Courier New', monospace; 
-  font-weight: 600; 
+  font-weight: 900; 
   font-size: 12px; 
   text-transform: uppercase;
   background: var(--mggradient);
