@@ -1,11 +1,11 @@
 .isit {margin: 0px auto; width: 90%; }
 .lonely {background: var(--mggradient); border-radius: 15px 15px 0px 0px; padding: 20px; }
 .where {background: var(--bg6); border-radius: 0px 0px 15px 15px; padding: 20px; }
-.youare { height: 30px;  margin: 0 auto; position: relative; padding: 10px;font-family: 'Kristopher';  font-size: 45px; text-align: center; cnt-size: 16px; color: var(--bg10); text-shadow: 0 5px 10px rgba(0,0,0,0.4);}
+.youare { height: 30px;  margin: 0 auto; position: relative; padding: 10px;font-family: 'Kristopher', 'Brush Script MT', cursive;  font-size: 45px; text-align: center; cnt-size: 16px; color: var(--bg10); text-shadow: 0 5px 10px rgba(0,0,0,0.4);}
 .allthe {height: 150px; margin: 0 auto; position: relative; padding: 10px; border-radius: 15px 15px 15px 15px; background: var(--bg9);}
-.way {height: 150px; padding: 10px; font-family: font-family: 'Poppins'; font-size: 15px; text-align: justify; color: var(--fontcolor1); }
-.way b {font-family: 'Poppins'; font-size: 15px; color: rgb(var(--mgcolor1));}
-.way i {font-family: 'Poppins'; font-size: 15px; background: var(--mggradient25);border-radius: 7px 7px 7px 7px;}
+.way {height: 150px; padding: 10px; font-family: font-family: 'Poppins', Verdana, sans-serif; font-size: 15px; text-align: justify; color: var(--fontcolor1); }
+.way b {font-family: 'Poppins', Verdana, sans-serif; font-size: 15px; color: rgb(var(--mgcolor1));}
+.way i {font-family: 'Poppins', Verdana, sans-serif; font-size: 15px; background: var(--mggradient25);border-radius: 7px 7px 7px 7px;}
 .flex-container {
 
     display: flex;
@@ -27,6 +27,6 @@
 .witha {margin: 0 auto; top: 20px; position: relative; height: 35px; background: var(--mggradient); padding: 10px; border-radius: 15px 15px 0px 0px;}
 .knife {font-family: 'Kristopher';  font-size: 18px; text-align: center; cnt-size: 16px;color: var(--bg10); text-shadow: 0 5px 10px rgba(0,0,0,0.4);}
 .inside {margin: 0 auto; top: 6px; right: 10px; position: relative;  height: 35px; width: 100%; background: var(--bg9); padding: 10px; border-radius: 0px 0px 15px 15px;}
-.your { height: 30px; font-family: font-family: 'Poppins'; font-size: 13px; text-align: justify; color: var(--fontcolor1); }
-.your b {font-family: 'Poppins'; font-size: 13px; color: rgb(var(--mgcolor1));}
-.your i {font-family: 'Poppins'; font-size: 13px; color: rgb(var(--mgcolor3));}
+.your { height: 30px; font-family: font-family: 'Poppins', Verdana, sans-serif; font-size: 13px; text-align: justify; color: var(--fontcolor1); }
+.your b {font-family: 'Poppins', Verdana, sans-serif; font-size: 13px; color: rgb(var(--mgcolor1));}
+.your i {font-family: 'Poppins', Verdana, sans-serif; font-size: 13px; color: rgb(var(--mgcolor3));}
