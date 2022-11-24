@@ -1,0 +1,330 @@
+@font-face {
+    font-family: 'pearl';
+    src: url('https://files.jcink.net/uploads/hayleetest/TAN_PEARL.ttf');
+}
+
+@font-face {
+    font-family: 'varela round';
+    src: url('https://files.jcink.net/uploads/hayleetest/VarelaRound_Regular.ttf');
+}
+
+.hayleetemplate { --fontcolor: 0,0,0; --hayleebg1: #f2f2f2;  --hayleebg2: #fafafa; --hayleebg3: rgba(255,255,255,0.4); --mggradient: linear-gradient(90deg, rgb(var(--mgrgb1),.5), rgb(var(--mgrgb2),.5), rgb(var(--mgrgb3),.5));  --mggradient25: linear-gradient(270deg, rgb(var(--mgrgb1),.25), rgb(var(--mgrgb2),.25), rgb(var(--mgrgb3),.25));
+}
+
+html[color-mode="dark"] .hayleetemplate { --fontcolor: 255,255,255; --hayleebg1: #232323;  --hayleebg2: #1b1b1b; --hayleebg3: rgba(27,27,27,0.4); --mggradient: linear-gradient(90deg, rgb(var(--mgrgb1),.5), rgb(var(--mgrgb2),.5), rgb(var(--mgrgb3),.5));  --mggradient25: linear-gradient(270deg, rgb(var(--mgrgb1),.25), rgb(var(--mgrgb2),.25), rgb(var(--mgrgb3),.25));}
+
+.hayleetemplate { color:rgb(var(--fontcolor)); }
+
+.hayleemargin { 
+  margin: 0 auto; 
+  width: 600px; }
+.hayleebackground { 
+  width: auto; 
+  height: auto; 
+  background: var(--hayleebg1); 
+  border-radius: 15px;
+  padding-bottom: 40px;
+}
+.haylee-header {
+  display: grid;
+  grid-template-rows: 90px 100px;
+  grid-template-columns: 50px 500px 1fr;
+  row-gap: 10px; 
+  column-gap: 0px;
+}
+.haylee-verse-title {
+  grid-row: 1;
+  grid-column: 1 / span 3;
+  padding-top: 40px;
+  font-family: 'Pearl', 'Brush Script MT', cursive;
+  font-weight: 900;
+  background: var(--mggradient); -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+  text-align: center;
+  font-size: 30px;
+  line-height: 1.6;
+}
+.haylee-text-box {
+  grid-row: 2;
+  grid-column: 2 / span 1;
+  font-family: font-family: 'varela Round', Verdana, sans-serif;
+  font-size: 14px;
+  line-height: 1.6;
+  text-align: justify;
+  color: var(--fontcolor);
+  height: 100px;
+  overflow-y: auto;
+  background: var(--hayleebg2);
+  border-radius: 15px;
+  padding: 10px;
+}
+.haylee-text-box b { 
+  font-family: 'varela Round', Verdana, sans-serif; 
+  font-size: 14px; 
+  background: transparent var(--mggradient) no-repeat right bottom;
+background-size: 100% 2.5px;
+padding-bottom: 1px;
+}
+.haylee-text-box i { 
+  font-family: 'varela Round', Verdana, sans-serif; 
+  font-size: 16px; 
+  font-size: 14px; 
+  background: var(--mggradient25);border-radius: 7px 7px 7px 7px;
+  padding: 3px;
+}
+.haylee-tracker-list {
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  row-gap: 10px;
+}
+
+.haylee-group1 {
+  display: grid;
+  grid-template-rows: 40px 40px ;
+  grid-template-columns: 100px 1fr;
+  row-gap: 10px; 
+  border-radius: 15px;
+  padding: 25px;
+  background-color:rgba(var(--mgrgb1),0.4);
+}
+
+ .haylee-group1-gif {
+  grid-row: 1 /span 1fr;
+  grid-column: 1; 
+  width: 80px; 
+  height: 80px; 
+  border-radius: 50%; 
+  position: relative;
+  top: -42px;
+  left: 8px; 
+  }
+.haylee-group1-gif img {
+height: 80px; 
+  width: 80px; 
+  border-radius: 50%; 
+  object-fit: cover;
+}
+.haylee-group1-border {
+  grid-row: 1 /span 1fr;
+  grid-column: 1; 
+  width: 86px;
+  height: 86px;
+  border: 5px solid rgba(var(--mgrgb1), 0.9);
+ border-right: 5px solid rgba(var(--mgrgb1), 0.5);
+  border-radius: 50%;
+animation: testing 8s linear infinite;
+}
+@keyframes testing {  0%   {transform:rotate(0deg);}  25%  {}  50%  {}  75%  {}  100% {transform:rotate(360deg);}
+}
+.haylee-group1-title {
+  grid-row: 1;
+  grid-column: 2; 
+  padding-left: 20px;
+  font-family: 'Pearl', 'Brush Script MT', cursive;
+  font-weight: 900;
+  color: var(--fontcolor);
+  text-align: justify;
+  font-size: 20px;
+  line-height: 1.6;
+}
+.haylee-group1-subtitle {
+  font-family: font-family: 'varela Round', Verdana, sans-serif;
+  font-size: 14px;
+  line-height: 1.6;
+  text-align: center;
+  color: var(--fontcolor);
+  background: var(--hayleebg3);
+  width: 300px;
+  height:25px;
+  border-radius: 7px 7px 7px 7px;
+  padding: 4px;
+  margin-left: 20px;
+}
+.haylee-group1-subtitle b { 
+  font-family: 'varela Round', Verdana, sans-serif; 
+  font-size: 14px; 
+  background: transparent var(--mggradient) no-repeat right bottom;
+background-size: 100% 2.5px;
+padding-bottom: 1px;
+}
+.haylee-group1-subtitle i { 
+  font-family: 'varela Round', Verdana, sans-serif; 
+  font-size: 16px; 
+  font-size: 14px; 
+  color: rgba(var(--mgrgb2),0.7);
+}
+
+.haylee-group2 {
+  display: grid;
+  grid-template-rows: 40px 40px ;
+  grid-template-columns: 100px 1fr;
+  row-gap: 10px; 
+  border-radius: 15px;
+  padding: 25px;
+  background-color:rgba(var(--mgrgb2),0.4);
+}
+
+ .haylee-group2-gif {
+  grid-row: 1 /span 1fr;
+  grid-column: 1; 
+  width: 80px; 
+  height: 80px; 
+  border-radius: 50%; 
+  position: relative;
+  top: -42px;
+  left: 8px; 
+  }
+.haylee-group2-gif img {
+height: 80px; 
+  width: 80px; 
+  border-radius: 50%; 
+  object-fit: cover;
+}
+.haylee-group2-border {
+  grid-row: 1 /span 1fr;
+  grid-column: 1; 
+  width: 86px;
+  height: 86px;
+  border: 5px solid rgba(var(--mgrgb2), 0.9);
+ border-right: 5px solid rgba(var(--mgrgb2), 0.5);
+  border-radius: 50%;
+animation: testing 8s linear infinite;
+}
+@keyframes testing {  0%   {transform:rotate(0deg);}  25%  {}  50%  {}  75%  {}  100% {transform:rotate(360deg);}
+}
+.haylee-group2-title {
+  grid-row: 1;
+  grid-column: 2; 
+  padding-left: 20px;
+  font-family: 'Pearl', 'Brush Script MT', cursive;
+  font-weight: 900;
+  color: var(--fontcolor);
+  text-align: justify;
+  font-size: 20px;
+  line-height: 1.6;
+}
+.haylee-group2-subtitle {
+  font-family: font-family: 'varela Round', Verdana, sans-serif;
+  font-size: 14px;
+  line-height: 1.6;
+  text-align: center;
+  color: var(--fontcolor);
+  background: var(--hayleebg3);
+  width: 300px;
+  height:25px;
+  border-radius: 7px 7px 7px 7px;
+  padding: 4px;
+  margin-left: 20px;
+}
+.haylee-group2-subtitle b { 
+  font-family: 'varela Round', Verdana, sans-serif; 
+  font-size: 14px; 
+  background: transparent var(--mggradient) no-repeat right bottom;
+background-size: 100% 2.5px;
+padding-bottom: 1px;
+}
+.haylee-group2-subtitle i { 
+  font-family: 'varela Round', Verdana, sans-serif; 
+  font-size: 16px; 
+  font-size: 14px; 
+  color: rgba(var(--mgrgb3),0.7);
+}
+
+.haylee-group3 {
+  display: grid;
+  grid-template-rows: 40px 40px ;
+  grid-template-columns: 100px 1fr;
+  row-gap: 10px; 
+  border-radius: 15px;
+  padding: 25px;
+  background-color:rgba(var(--mgrgb3),0.4);
+}
+
+ .haylee-group3-gif {
+  grid-row: 1 /span 1fr;
+  grid-column: 1; 
+  width: 80px; 
+  height: 80px; 
+  border-radius: 50%; 
+  position: relative;
+  top: -42px;
+  left: 8px; 
+  }
+.haylee-group3-gif img {
+height: 80px; 
+  width: 80px; 
+  border-radius: 50%; 
+  object-fit: cover;
+}
+.haylee-group3-border {
+  grid-row: 1 /span 1fr;
+  grid-column: 1; 
+  width: 86px;
+  height: 86px;
+  border: 5px solid rgba(var(--mgrgb3), 0.9);
+ border-right: 5px solid rgba(var(--mgrgb3), 0.5);
+  border-radius: 50%;
+animation: testing 8s linear infinite;
+}
+@keyframes testing {  0%   {transform:rotate(0deg);}  25%  {}  50%  {}  75%  {}  100% {transform:rotate(360deg);}
+}
+.haylee-group3-title {
+  grid-row: 1;
+  grid-column: 2; 
+  padding-left: 20px;
+  font-family: 'Pearl', 'Brush Script MT', cursive;
+  font-weight: 900;
+  color: var(--fontcolor);
+  text-align: justify;
+  font-size: 20px;
+  line-height: 1.6;
+}
+.haylee-group3-subtitle {
+  font-family: font-family: 'varela Round', Verdana, sans-serif;
+  font-size: 14px;
+  line-height: 1.6;
+  text-align: center;
+  color: var(--fontcolor);
+  background: var(--hayleebg3);
+  width: 300px;
+  height:25px;
+  border-radius: 7px 7px 7px 7px;
+  padding: 4px;
+  margin-left: 20px;
+}
+.haylee-group3-subtitle b { 
+  font-family: 'varela Round', Verdana, sans-serif; 
+  font-size: 14px; 
+  background: transparent var(--mggradient) no-repeat right bottom;
+background-size: 100% 2.5px;
+padding-bottom: 1px;
+}
+.haylee-group3-subtitle i { 
+  font-family: 'varela Round', Verdana, sans-serif; 
+  font-size: 16px; 
+  font-size: 14px; 
+  color: rgba(var(--mgrgb1),0.7);
+}
+
+.haylee-ship {
+  display: grid;
+  grid-row: 90px;
+  grid-column: 1fr;
+  row-gap: 10px; 
+  border-radius: 15px;
+  padding: 25px;
+  background-color: var(--hayleebg2);
+}
+.haylee-ship-title {
+  grid-row: 1;
+  grid-column: 1fr; 
+  font-family: 'Pearl', 'Brush Script MT', cursive;
+  font-weight: 900;
+  background: var(--mggradient); -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+  text-align: center;
+  font-size: 20px;
+  line-height: 1.6;
+}
